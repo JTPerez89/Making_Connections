@@ -1,0 +1,263 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  max-width: 1600px;
+  max-height: 800px;
+  font-family: sans-serif;
+}
+
+.container-2 {
+  width: 100%;
+  max-height: 800px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftSideContainer {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSideContainer {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.leftNavBar {
+  width: 50%;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.large {
+  font-size: 200%;
+}
+
+.rightNavBar {
+  display: flex;
+  align-items: center;
+}
+
+.navBtn {
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px 10px;
+}
+
+.namePlateContainer {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0px;
+  border: 2px solid lightgray;
+}
+
+.namePlateContainer header {
+  background-color: lightseagreen;
+  height: 125px;
+  width: 100%;
+}
+
+header img {
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+  position: relative;
+  top: 40px;
+}
+
+.nameInfoBox {
+  margin: 60px 20px;
+}
+
+.nameInfoBox h1 {
+  margin-bottom: 10px;
+}
+
+.namePlateLocation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.namePlateLocation img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.namePlateEdit {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.namePlateEdit img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.reqContainer {
+  border: 2px solid lightgray;
+}
+
+.eduContainer {
+  margin: 20px 0px;
+  border: 2px solid lightgray;
+  width: 100%;
+  height: 200px;
+}
+
+.eduHead {
+  width: 100%;
+  height: 40px;
+  background-color: #383838;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.eduHead p {
+  margin-left: 20px;
+  color: whitesmoke;
+}
+
+.eduText {
+  margin: 20px;
+}
+
+.subEduText {
+  margin: 10px 0px;
+  color: gray;
+}
+
+.reqContainer {
+  height: 200px;
+  width: 100%;
+  margin: 20px 0px;
+  border: 2px solid lightgray;
+}
+
+.reqContainer header {
+  width: 100%;
+  height: 40px;
+  background-color: #383838;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reqNum {
+  width: 22px;
+  color: black;
+  background-color: lightgray;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.reqText {
+  margin: 20px;
+}
+
+.reqText img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.reqSpacer {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.reqTodd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reqPhil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connContainer {
+  height: 400px;
+  width: 100%;
+  margin: 20px 0px;
+  border: 2px solid lightgray;
+}
+
+.connContainer header {
+  width: 100%;
+  height: 40px;
+  background-color: #383838;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.connNum {
+  width: 50px;
+  color: black;
+  background-color: lightgray;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.connText {
+  margin: 20px;
+}
+
+.connText img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.connSpacer {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.connBot {
+  border-top: 2px solid lightgray;
+  padding: 15px;
+}
+
+img.acc {
+  width: 30px;
+  position: relative;
+  left: 30px;
+}
+
+img.acc-1 {
+  width: 30px;
+  position: relative;
+  left: 60px;
+}
